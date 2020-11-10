@@ -50,19 +50,8 @@
 			localStorage.setItem("optionsObject", JSON.stringify(currentOptions));
 		}
 
-		//Layout settings visible
-		$('[data-toggle="right-sidebar"]').on('click', function() {
-			jQuery('.right-sidebar').addClass('right-sidebar-visible');
-		});
-
-		//THEME OPTION CLOSE BUTTON
-		$('[data-toggle="right-sidebar-close"]').on('click', function() {
-			jQuery('.right-sidebar').removeClass('right-sidebar-visible');
-		})
-
 		//VARIABLE
 		var body = jQuery('body');
-		var left_sidebar = jQuery('.left-side-bar');
 
 
 		// Header Background
